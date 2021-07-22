@@ -1,0 +1,15 @@
+/* You can add global styles to this file, and also import other style files */
+
+
+/* Colores */
+/**
+
+Gris Claro -> #f6f6f6
+Rosa Pastel -> #ffe2e2
+Salmon -> #ffc7c7
+Gris -> c2c2c2
+Gris Oscuro -> #6b7d7d
+
+*/
+nav { background: #ffe2e2; }
+.customHeader { background: #6b7d7d; }
