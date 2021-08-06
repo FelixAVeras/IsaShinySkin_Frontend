@@ -10,18 +10,15 @@ Salmon -> #ffc7c7
 Gris -> c2c2c2
 Gris Oscuro -> #6b7d7d
 Marroncito Oscuro -> #816F63
-Rosa labial de doña -> #ba7b7c
-Rosa labial de doña claro -> #e5c5c5
+Rosa viejo -> #ba7b7c
+Rosa viejo claro -> #e5c5c5
 
 */
 
 nav { background: #ba7b7c; }
-#navegacion li a, #navegacion a { color: #fff; }
-#navegacion li a:hover, #navegacion a:hover { color: #000; }
-
-ul.dropdown-menu li a { color: #000 !important; }
-
 .customHeader { background: #e5c5c5; }
-.headerTitle h1, .headerTitle p.lead { color: #816F63 !important; }
-
 div.card-body h5.fw-bolder { color: #816F63; }
+#navegacion li a, #navegacion a { color: #fff; }
+ul.dropdown-menu li a { color: #000 !important; }
+#navegacion li a:hover, #navegacion a:hover { color: #000; }
+.headerTitle h1, .headerTitle p.lead { color: #816F63 !important; }

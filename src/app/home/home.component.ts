@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
 import { ProductsService } from '../services/products.service';
 
 @Component({
@@ -13,7 +14,7 @@ export class HomeComponent implements OnInit {
   currentIndex = -1;
   name = '';
 
-  constructor(private productService: ProductsService) { }
+  constructor(private productService: ProductsService, private route: ActivatedRoute,) { }
 
   ngOnInit(): void {
     this.getProducts();

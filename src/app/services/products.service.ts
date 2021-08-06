@@ -1,5 +1,6 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
+import { Product } from '../models/product';
 
 @Injectable({
   providedIn: 'root'
@@ -15,6 +16,8 @@ export class ProductsService {
   }
 
   getProductById(id: number) {
-    return this.http.get(this.urlApi + `/Products/${id}` );
+    // return this.http.get(this.urlApi + `/Products/${id}` );
+    
+    return this.http.get<Product>(this.urlApi + '/Products/' + id);
   }
 }
